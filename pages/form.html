@@ -18,7 +18,34 @@
     <label for="senha"> Senha</label>
     <input type="password" name="senha">
 
+    <label for="escolhas"> o que você sabe?</label>
+    <input type="checkbox" name="escolhas" value="js" id="">JS
+    <input type="checkbox" name="escolhas" value="html" id="">HTML
+    <input type="checkbox" name="escolhas" value="css" id="">CSS
+    
+    <label for="sexo">Gênero</label>
+    <input type="radio" name="sexo" value="Masculino" id="">Masculino
+    <input type="radio" name="sexo" value="Feminino" id="">Feminino
+    <input type="radio" name="sexo" value="Indefinido" id="">Indefinido
+    <input type="radio" name="sexo" value="nao-infromado" id="">Prefiro não dizer
 
+    <!--  Select (lista suspensa)  -->
+    <label for="curso">Curso desejado</label><br>
+    <select name="cruso" id="">
+        <option value="html">HTML</option>
+        <option value="js">JS</option>
+        <option value="css">CSS</option>
+    </select>
+
+    <label for="mensagem">mensagem</label>
+    <textarea name="mensagem" id="" cols="20" rows="4"></textarea>
+    
+
+    <label for="nascimento">Data de nascimento</label>
+    <input type="date" name="nascimento" id="">
+
+    
+    <button type="submit">Enviar</button>
     </form>
 </body>
 </html>

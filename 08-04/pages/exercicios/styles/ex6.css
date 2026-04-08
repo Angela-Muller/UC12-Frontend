@@ -1,0 +1,23 @@
+.um {
+    width: 150px;
+    height: 80px;
+    background: gray;
+    display: block;
+    margin: 10px;
+}
+
+.dois {
+    width: 150px;
+    height: 80px;
+    background: blue;
+    display: inline;
+    margin: 10px;
+}
+
+.tres {
+    width: 150px;
+    height: 80px;
+    background: brown;
+    display: inline-block;
+    margin: 10px;
+}

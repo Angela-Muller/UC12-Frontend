@@ -1,0 +1,19 @@
+div {
+    background-color: greenyellow;
+    height: 50px;
+    display: inline-block;
+    margin: 10px;
+}
+
+a {
+    background-color: greenyellow;
+    width: 200px;
+    height: 200px;
+} 
+
+button{
+    height: 100px;
+    width: 100px;
+    background-color: greenyellow;
+    margin: 10px;
+}

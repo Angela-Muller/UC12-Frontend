@@ -1,0 +1,79 @@
+body{
+    background-color: black;
+}
+
+p{
+    color: white;
+    font-family: 'Gelasio';
+}
+h1 {
+    color: white;
+    font-family: 'Mael';
+}
+
+
+.cards {
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+img {
+    height: 400px;
+    width: 100%;
+}
+
+.card1 {
+    background: linear-gradient(rgb(10, 169, 218), rgb(8, 41, 187));
+    padding: 5%;
+    margin: 10px;
+    border-radius: 20px;
+    border: 3px solid white;
+}
+
+.card2 {
+    background: linear-gradient(rgb(157, 255, 100), rgb(23, 102, 36));
+    padding: 5%;
+    margin: 10px;
+    border-radius: 20px;
+    border: 3px solid white;
+}
+
+.card3 {
+    background: linear-gradient(rgb(153, 153, 153), rgb(63, 62, 62));
+    padding: 5%;
+    margin: 10px;
+    border-radius: 20px;
+    border: 3px solid white;
+}
+
+@font-face {
+    font-family: "mael";
+    src: url(../fonts/MAEL.TTF);
+}
+
+.gelasio-font {
+  font-family: "Gelasio", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+button {
+    height: 50%;
+    width: 50%;
+    font-family: 'Galasio';
+    font-size: 2em;
+    padding: 5px;
+    border-radius: 35px;
+    margin-top: 15px;
+    border: none;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}

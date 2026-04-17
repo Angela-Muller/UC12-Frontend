@@ -9,6 +9,7 @@ p{
 h1 {
     color: white;
     font-family: 'Mael';
+    letter-spacing: 5px;
 }
 
 
@@ -26,7 +27,7 @@ img {
 }
 
 .card1 {
-    background: linear-gradient(rgb(10, 169, 218), rgb(8, 41, 187));
+    background: linear-gradient(rgb(10, 169, 218), rgb(8, 41, 187), black);
     padding: 5%;
     margin: 10px;
     border-radius: 20px;
@@ -34,7 +35,7 @@ img {
 }
 
 .card2 {
-    background: linear-gradient(rgb(157, 255, 100), rgb(23, 102, 36));
+    background: linear-gradient(rgb(157, 255, 100), rgb(23, 102, 36), black);
     padding: 5%;
     margin: 10px;
     border-radius: 20px;
@@ -42,7 +43,7 @@ img {
 }
 
 .card3 {
-    background: linear-gradient(rgb(153, 153, 153), rgb(63, 62, 62));
+    background: linear-gradient(rgb(153, 153, 153), rgb(63, 62, 62), black);
     padding: 5%;
     margin: 10px;
     border-radius: 20px;
@@ -76,4 +77,8 @@ button:hover {
     background-color: black;
     color: white;
     cursor: pointer;
+}
+
+.escondida{
+    display: none; /* faz com que o elemento desapareça */
 }

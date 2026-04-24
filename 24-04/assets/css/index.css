@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(0, 60, 62);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+}
+
+.green{
+    background-color: black;
+    padding: 20px;
+    color: greenyellow;
+    border: solid 2px greenyellow;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+img{
+    height: 400px;
+    width: 500px;
+    border-radius: 20px 20px 20px 20px;
+    border: solid 1px white;
+}
+
+button{
+    margin-top: 10px;
+    font-size: 25px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: black;
+    color: white;
+    border: solid 1px white;
+    border-radius: 10px 10px 10px 10px;
+}
+
+
+.pog{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.images{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;    
+}
+
+.esconder{
+ visibility: hidden;
+}

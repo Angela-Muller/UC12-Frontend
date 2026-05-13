@@ -1,0 +1,41 @@
+
+body {
+    background-color: rgb(255, 83, 141);
+    color: white;
+}
+
+/*
+div {
+    position: relative;
+    width: 40px;
+}
+
+span{
+    position: absolute;
+    background-color: red;
+    padding: 2px 5px;
+    color: white;
+    border-radius: 50%;
+    font-size: 12px;
+    top: -5px;
+    right: -5px;
+}
+
+img {
+    width: 40px;
+} */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: rgb(233, 85, 85);
+    position: sticky;
+    top: 0px;
+}
+
+div {
+    padding: 10px;
+}

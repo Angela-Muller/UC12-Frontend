@@ -1,0 +1,166 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+s {
+    opacity: 50%;
+}
+
+body{
+    background-color: rgb(225, 225, 225);
+}
+
+header{
+    position: sticky;
+    top: 0;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.container-menu {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.container-menu nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.container-menu nav a:hover{
+    color: darkorange;
+}
+
+.logo {
+    width: 100px;
+}
+
+
+.whats-btn {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    width: 60px;
+}
+
+.cart-container {
+    position: relative;
+}
+
+.cart-container span{
+    background-color: orange;
+    font-size: 8px;
+    border-radius: 50%;
+    padding: 0.5px 3px;
+    position: absolute;
+    top: -6px;
+    right: -5px;
+    color: white;
+}
+
+.menu-extra {
+    position: relative;
+    cursor: pointer;
+}
+
+.menu-dropdown {
+
+    position: absolute;
+    right: 0px;
+    top: 35px;
+
+    background-color: black;
+    width: 180px;
+
+    display: flex;
+    border-radius: 8px;
+    flex-direction: column;
+
+    opacity: 0;
+
+    transform: translateY(-10px);
+
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.menu-extra:hover .menu-dropdown {
+    opacity: 1;
+
+    transform: translateY(0);
+}
+
+.menu-dropdown a {
+    text-decoration: none;
+    color: white;
+    padding: 12px;
+}
+
+.menu-lateral{
+    background-color: black;
+    position: fixed;
+    top: 1;
+    left: 0;
+    height: 100vh;
+    width: 200px;
+}
+
+.menu-lateral a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+.promo img {
+    border: dashed orange 2px;
+    height: 400px;
+    width: 350px;
+
+}
+
+.promo {
+    width: 65%;
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+    border: solid orange 2px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 0 0 0 15%;
+
+}
+.text-promo {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-promo button{
+    background-color: green;
+    border-radius: 10px;
+    border: 1px white solid;
+    padding: 3px;
+    color: white;
+    width: 150px;
+}
+
+.btn-promo {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+
+.btn-promo:hover button{
+    cursor: pointer;
+}

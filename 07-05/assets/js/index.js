@@ -3,8 +3,12 @@ const btn = document.querySelector("button")
 const btnRem = document.getElementById("btn-rem")
 
 let contador = 0;
+let numeroItens =0;
 
 btn.addEventListener('click', () => {
+    if(numeroItens == 0) {
+        contador = numeroItens;
+    }
     const box = document.createElement("div");
     box.classList.add("container");
     contador += 1;

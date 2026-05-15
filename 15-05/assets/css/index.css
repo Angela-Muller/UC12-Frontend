@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+/*
+Nosso css padrão
+*/
+
+div {
+    background-color: rgb(182, 44, 44);
+    height: 30vh;
+    font: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*
+    Css que vai ser utilizados quando a tela for menor
+*/
+
+/* max-width:600px -> aplica o css para telas COM LARGURA MÁXIMA de 600px*/
+
+@media (max-width: 600px) {
+    div {
+        background-color: blueviolet;
+    }
+}
+
+/* Orientation: landscape aplica o css para telas na horizontal( quando viramos o celular, por exemplo) */
+
+@media (orientation: landscape) {
+    div{
+        background-color: rgb(255, 127, 227);
+    }
+}
+
+button {
+    background-color: crimson;
+    padding: 10px 15px;
+    font-size: 18px;
+    border-radius: 15px;
+    border: none;
+    margin-top: 15px;
+}
+
+button > a {
+    color: white;
+    text-decoration: none;
+}

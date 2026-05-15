@@ -1,0 +1,111 @@
+/* button {
+  background-color: #ff6600;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #cc5200;
+  border-radius: 5px;
+  transform: translate(1000000px);
+  
+} */
+
+/* criando a animação com keyfranes*/
+
+/* body{
+    color: white;
+    background-color: black;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0;}
+    to { opacity: 1;}    
+}
+
+.fade-in {
+    animation: fadeIn 2s ease infinite ;
+}
+
+@keyframes fadeOut {
+    from {opacity: 1;}
+    to {opacity: 0;}    
+}
+
+.fade-out {
+    animation: fadeOut 2s ease infinite;
+}
+
+
+@keyframes zoomIn {
+    from {transform: scale(0.5);}
+    to {transform: scale(1);}
+}
+
+.zoom-in {
+    animation: zoomIn 1s ease infinite;
+    width: 50px;
+}
+
+@keyframes pulse {
+    0% {transform: scale(1);}
+    50% {transform: scale(1.2);}
+    100% {transform: scale(1);}
+}
+
+.pulse {
+    animation: pulse 1s infinite;
+    width: 50px;
+}
+
+@keyframes girar {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.girar {
+    width: 24px;
+  animation: girar 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.loader {
+  border: 6px solid #eee;
+  border-top: 6px solid #3498db;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+  margin: 30px;
+}
+ */
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.slide-in {
+    animation: slideIn 2s ease;
+}
+
+.box {
+    opacity: 0;
+    transform: translateX(-100%);
+}
+
+.box.visible {
+    animation: slideIn 2s ease forwards;
+}
